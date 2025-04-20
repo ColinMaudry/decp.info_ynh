@@ -10,7 +10,6 @@ WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/.venv/bin/gunicorn app:server --bind 127.0.0.1:__PORT__ --workers 2
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
-EnvironmentFile=__INSTALL_DIR__/.env
 
 
 ### Depending on specificities of your service/app, you may need to tweak these
