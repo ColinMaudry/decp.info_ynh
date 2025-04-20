@@ -7,7 +7,7 @@ name = "decp.info"
 description.en = "Exploration interface to explore French Open public procurement data."
 description.fr = "Exploration des données essentielles de la commande publique françaises."
 
-version = "2.0.2~ynh1"
+version = "2.0.3~ynh1"
 
 maintainers = ["ColinMaudry"]
 
@@ -89,7 +89,7 @@ ram.runtime = "50M"
     #    ynh_setup_source --dest_dir="$install_dir"
     # You can also define other assets than "main" and add --source_id="foobar" in the previous command
     url = "https://github.com/ColinMaudry/decp.info/archive/refs/heads/dash.zip"
-    sha256 = "ed767d7b93b57da52c7cefa9b24f1cc0cec68564ef766d13a0f6fed66fc9fb71"
+    sha256 = "e3ead3ba30ce513bc2b6ba75646c117aa945a163bc615c419f9ab2ff9dbfca42"
 
 
     # These infos are used by https://github.com/YunoHost/apps_tools/blob/main/autoupdate_app_sources/autoupdate_app_sources.py
