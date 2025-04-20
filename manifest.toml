@@ -7,7 +7,7 @@ name = "decp.info"
 description.en = "Exploration interface to explore French Open public procurement data."
 description.fr = "Exploration des données essentielles de la commande publique françaises."
 
-version = "2.0.3~ynh1"
+version = "2.0.4~ynh1"
 
 maintainers = ["ColinMaudry"]
 
