@@ -60,6 +60,7 @@ ynh_exec_as_app python3 -m venv --without-pip "$install_dir/.venv"
   set -o nounset
   set -x
   cd "$install_dir"
+  ls -l
   ynh_exec_as_app $install_dir/.venv/bin/python3 -m ensurepip
   ynh_exec_as_app $install_dir/.venv/bin/pip3 install --upgrade wheel pip setuptools
   ynh_exec_as_app $install_dir/.venv/bin/pip3 install .
